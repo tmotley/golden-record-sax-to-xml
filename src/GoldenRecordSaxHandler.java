@@ -22,7 +22,6 @@ public class GoldenRecordSaxHandler extends DefaultHandler {
 
     static void writeElementAttributeData(BufferedWriter writer, Attributes attributes) throws Exception {
         for (int i = 0; i < attributes.getLength(); i++) {
-            //writer.write(attributes.getQName(i) + ":" + attributes.getValue(i));
             writer.write(attributes.getValue(i));
             if (i < (attributes.getLength() -1 )) {
                 writer.write(",");
