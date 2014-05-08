@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+    <xs:element name="PC9Products">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="PC9Product" minOccurs="1" maxOccurs="unbounded"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="PC9Product">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="SKUs"/>
+            </xs:sequence>
+            <xs:attribute name="productCode" use="required" type="xs:string"/>
+            <xs:attribute name="affWaistRise" use="optional" type="xs:string"/>
+            <xs:attribute name="coProduct" use="optional" type="xs:string"/>
+            <xs:attribute name="colorCode" use="optional" type="xs:string"/>
+            <xs:attribute name="colorDescription" use="optional" type="xs:string"/>
+            <xs:attribute name="curveId" use="optional" type="xs:string"/>
+            <xs:attribute name="deliveryEndDate" use="optional" type="xs:date"/>
+            <xs:attribute name="deliveryStartDate" use="optional" type="xs:date"/>
+            <xs:attribute name="fabricSubcategory" use="optional" type="xs:string"/>
+            <xs:attribute name="fabricType" use="optional" type="xs:string"/>
+            <xs:attribute name="ffcCode" use="optional" type="xs:string"/>
+            <xs:attribute name="ffcName" use="optional" type="xs:string"/>
+            <xs:attribute name="fiberContent" use="optional" type="xs:string"/>
+            <xs:attribute name="fitDescription" use="optional" type="xs:string"/>
+            <xs:attribute name="gender" use="optional" type="xs:string"/>
+            <xs:attribute name="keyOutfitIndicator" use="optional" type="xs:string"/>
+            <xs:attribute name="productCategory" use="optional" type="xs:string"/>
+            <xs:attribute name="productLine" use="optional" type="xs:string"/>
+            <xs:attribute name="productLineDescription" use="optional" type="xs:string"/>
+            <xs:attribute name="productionCenter" use="optional" type="xs:string"/>
+            <xs:attribute name="profitCenterCode" use="optional" type="xs:string"/>
+            <xs:attribute name="productColorFinishGroup" use="optional" type="xs:string"/>
+            <xs:attribute name="productDescription" use="optional" type="xs:string"/>
+            <xs:attribute name="productFabricFamily" use="optional" type="xs:string"/>
+            <xs:attribute name="productFabricStretch" use="optional" type="xs:string"/>
+            <xs:attribute name="productFrontFlyOpening" use="optional" type="xs:string"/>
+            <xs:attribute name="productGroup" use="optional" type="xs:string"/>
+            <xs:attribute name="productGroupDescription" use="optional" type="xs:string"/>
+            <xs:attribute name="productLegOpening" use="optional" type="xs:string"/>
+            <xs:attribute name="productLifecycleGroup" use="optional" type="xs:string"/>
+            <xs:attribute name="productNeckline" use="optional" type="xs:string"/>
+            <xs:attribute name="productSeason" use="optional" type="xs:string"/>
+            <xs:attribute name="productSleeveLength" use="optional" type="xs:string"/>
+            <xs:attribute name="productSubCategory" use="optional" type="xs:string"/>
+            <xs:attribute name="productWaistRise" use="optional" type="xs:string"/>
+            <xs:attribute name="productYear" use="optional" type="xs:string"/>
+            <xs:attribute name="styleCode" use="optional" type="xs:string"/>
+            <xs:attribute name="styleName" use="optional" type="xs:string"/>
+            <xs:attribute name="styleNumber" use="optional" type="xs:string"/>
+            <xs:attribute name="taxCategoryUS" use="optional" type="xs:string"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="SKUs">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="SKU" minOccurs="0" maxOccurs="unbounded"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="SKU">
+        <xs:complexType>
+            <xs:attribute name="ean" use="optional" type="xs:string"/>
+            <xs:attribute name="height" use="optional" type="xs:string"/>
+            <xs:attribute name="length" use="optional" type="xs:string"/>
+            <xs:attribute name="sizeCode" use="optional" type="xs:string"/>
+            <xs:attribute name="sizeDescription" use="optional" type="xs:string"/>
+            <xs:attribute name="sku" use="optional" type="xs:string"/>
+            <xs:attribute name="upc" use="optional" type="xs:string"/>
+            <xs:attribute name="waist" use="optional" type="xs:string"/>
+            <xs:attribute name="weight" use="optional" type="xs:string"/>
+            <xs:attribute name="width" use="optional" type="xs:string"/>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

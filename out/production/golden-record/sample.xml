@@ -1,0 +1,48 @@
+<PC9Products>
+  <PC9Product
+          productCode="163570000"
+          affWaistRise="Mid Waist/Rise"
+          coProduct="Y"
+          colorCode="N8843"
+          colorDescription="CUMIN SUEDE"
+          curveId="257"
+          deliveryEndDate="12/29/2013 12:00:00 AM"
+          deliveryStartDate="05/27/2013 12:00:00 AM"
+          fabricSubcategory="Denim - Heavyweight (12oz. And Up)"
+          fabricType="Denim"
+          ffcCode="80366"
+          ffcName="Dusty Black"
+          fiberContent="100% Cotton"
+          fitDescription="Standard"
+          gender="Male"
+          keyOutfitIndicator="No"
+          productCategory="Bottoms"
+          productLine="510"
+          productLineDescription="Levi's Red Tab"
+          productionCenter="LV"
+          productColorFinishGroup="Blacks"
+          productDescription="LINED AUTHENTIC TRUCKER CUMIN SUEDE"
+          productFabricFamily="Denim"
+          productFabricStretch="Non-Stretch"
+          productFrontFlyOpening="Button"
+          productGroup="B03"
+          productGroupDescription="LW RT Jackets"
+          productLegOpening="Tapered"
+          productLifecycleGroup="Core 1"
+          productNeckline="Not Applicable"
+          productSeason="L3"
+          productSleeveLength="Not Applicable"
+          productSubCategory="Long Bottoms (Denim Brands"
+          productWaistRise="Mid Waist/Rise"
+          productYear="2014"
+          styleCode="00501"
+          styleName="501 Levi’s® Original Fit"
+          styleNumber="1635700000">
+    <SKUs>
+      <SKU ean="" height="1" length="1" sizeCode="XL" sizeDescription="XL" sku="1635700000XL" upc="3405038383Q" waist="XL" weight="1" width="1"/>
+      <SKU ean="5415211001848" height="1" length="1" sizeCode="L" sizeDescription="L" sku="1635700000L" upc="74050383832" waist="L" weight="1" width="1"/>
+      <SKU ean="4415211001838" height="1" length="1" sizeCode="M" sizeDescription="M" sku="1635700000M" upc="24050383833" waist="M" weight="1" width="1"/>
+      <SKU ean="2415211001837" height="1" length="1" sizeCode="S" sizeDescription="S" sku="1635700000S" upc="54050383834" waist="S" weight="1" width="1"/>
+    </SKUs>
+  </PC9Product>
+</PC9Products>
